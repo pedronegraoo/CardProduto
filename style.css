@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.box {
+  min-height: 100vh;
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 400px;
+  height: 400px;
+}
+
+.container {
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.container2 {
+  min-height: 100%;
+  margin: 12px;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: rgb(147, 157, 158);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 16px;
+  padding: 10px;
+  font-family: "Roboto";
+}
+
+.name-product {
+  font-family: "Caprasimo";
+  font-size: 30px;
+  padding: 10px;
+}
+
+.description {
+  font-family: "Roboto";
+  color: rgb(147, 157, 158);
+  font-size: 16px;
+  padding: 10px;
+  line-height: 24px;
+}
+
+.order-price {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 38px;
+  padding: 10px;
+  color: rgb(8, 95, 23);
+}
+
+.noPrice {
+  color: rgb(147, 157, 158);
+  text-decoration: line-through;
+  margin-left: 15px;
+}
+
+.btn {
+  font-family: "Roboto";
+  font-size: 15px;
+  color: white;
+  background-color: rgb(8, 95, 23);
+  margin: 10px 20px;
+  padding: 12px;
+  border-radius: 0.5rem;
+  border: 0 transparent;
+  display: flex;
+  justify-content: center;
+  transition-duration: 300ms;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: rgb(8, 158, 33);
+}
+
+.icon {
+  height: 20px;
+  margin-right: 8px;
+}
+
+.attribution,
+.attribution a {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 2rem;
+  color: rgb(111, 123, 124);
+  font-family: "Roboto";
+}
